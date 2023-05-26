@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: solid black 4px;
+  border-radius: 8px;
+}
+
+#outlined-basic {
+  padding: 20px;
+  color: rgb(97, 97, 97);
+  background-color: transparent;
+  border-color: rgb(94, 94, 94);
+  border-radius: 8px;
+}
+
+#addButton {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+#addButton:hover{
+  background-color: black;
+}
+
+#filter {
+  padding: 16px;
+  text-align: left;
+}
+#filter > Button{
+  margin: 8px;
+  color: white;
+  background-color: gray;
+}
+#filter > Button:focus,
+#filter > Button:focus-visible{
+  background-color: green;
+}
+
+#listItem{
+  border: solid gray 2px;
+  border-radius: 2px;
+  margin: 4px;
+}
